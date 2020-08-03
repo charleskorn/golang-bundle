@@ -22,7 +22,7 @@ include:
 
 #### `golang-build-env`
 
-A container (based on the official [Golang images](https://hub.docker.com/_/Golang)) with sensible defaults for use with Golang.
+A container (based on the official [Golang images](https://hub.docker.com/_/golang)) with sensible defaults for use with Golang.
 
 It mounts the project directory into the container, enables run as current user mode and configures a cache for dependencies downloaded by Go.
 
