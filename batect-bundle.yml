@@ -12,3 +12,6 @@ containers:
     environment:
       # With the image above, GOPATH defaults to /go, so we don't need to set it explicitly.
       GOCACHE: /go/cache
+    run_as_current_user:
+      enabled: true
+      home_directory: /home/container-user
