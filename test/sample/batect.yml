@@ -1,0 +1,9 @@
+tasks:
+  run:
+    description: Run the sample application
+    run:
+      container: golang-build-env
+      command: go run .
+
+include:
+  - ../../batect-bundle.yml
