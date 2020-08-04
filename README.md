@@ -43,6 +43,8 @@ include:
     ref: XXX # Replace with latest version from https://github.com/batect/golang-bundle/releases
 ```
 
+The [Golang sample project](https://github.com/batect/batect-sample-golang) also demonstrates how to use this bundle.
+
 ## Development
 
 Run `./batect --list-tasks` to see a list of available tasks for this project.
